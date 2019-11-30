@@ -1,0 +1,3 @@
+whoami.localhost {
+  proxy / whoami:8000
+}

@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  proxy:
+    image: rnbw/localdots
+    ports:
+      - 80:80 # for http->https redirection
+      - 443:443
+    volumes:
+      # contains all vhost files
+      - ./caddy.d:/caddy.d:ro
+      # contains CA config and certs
+      - ~/.caroot:/caroot
+
+  # example containers
+  whoami:
+    image: jwilder/whoami
+  hello:
+    image: nginxdemos/hello
