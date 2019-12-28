@@ -33,6 +33,9 @@ services:
       - ./caddy.d:/caddy.d:ro
       # contains CA config and certs
       - ~/.caroot:/caroot
+    # only needed for *.localhost domains
+    extra_hosts:
+      - "whoami.localhost:127.0.0.1"    
 
   # example containers
   whoami:
@@ -65,4 +68,8 @@ docker-compose up -d
 # you will see a .caroot directory in your $HOME.
 brew install step \
     && step certificate install ~/.caroot/certs/root_ca.crt
+
+# that's it, try open the sites configured above
+open https://whoami.localhost
+open https://hello.dev
 ```
