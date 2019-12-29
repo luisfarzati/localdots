@@ -112,3 +112,6 @@ While this can be seen as bad practice, I leave it to you. Personally I've seen 
 In my opinion, as long as you 1- know what you are doing, 2- don't shadow an existing domain that you or someone in your team uses (e.g. don't use `gmail.com`...) and 3- keep it scoped to your local development environment, then just use whatever works for you.
 
 As with special domains, remember to add the necessary entries in your hosts file. Alternatively in this case, if you own the domain then you can always add the record in your DNS.
+
+## Contributing
+Bugfixes, improvements, proposals are gladly welcome!
