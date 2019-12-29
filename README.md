@@ -61,7 +61,7 @@ hello.dev {
 docker-compose up -d
 
 # add the domains to your /etc/hosts file
-# *.localhost domains shouldn't need to be added
+# *.localhost domains shouldn't need to be added for typical use cases
 127.0.0.1  hello.dev
 
 # after localdots container is up and running,
