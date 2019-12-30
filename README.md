@@ -2,7 +2,7 @@
 
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/rnbw/localdots)
 
-## localdots — HTTPS domains for development
+## localdots — HTTPS domains for localhost
 
 ### Important
 
