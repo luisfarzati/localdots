@@ -1,4 +1,4 @@
-# <img src="localdots.png" height="56" />
+<img src="localdots.png" height="56" />
 
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/rnbw/localdots)
 
