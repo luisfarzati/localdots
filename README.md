@@ -8,7 +8,7 @@ Inspired by https://smallstep.com/blog/step-v0-8-6-valid-https-certificates-for-
 
 ## Important/Disclaimer
 
-This tool installs a root CA in your system. Use it only if you know what you are doing.
+⚠️ **This tool installs a root CA in your system. Use it only if you know what you are doing.**
 
 ### Also Important
 
