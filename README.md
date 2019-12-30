@@ -4,7 +4,11 @@
 
 ## localdots — HTTPS domains for localhost
 
-### Important
+## Important/Disclaimer
+
+This tool installs a root CA in your system. Use it only if you know what you are doing.
+
+### Also Important
 
 As the title says, this tool is to be used for development. It is not meant to run at production and it hasn't been tested in CI environments either.
 
